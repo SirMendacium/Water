@@ -1,0 +1,29 @@
+header {
+    background-color:lightskyblue;
+    height: 25rem;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 4rem; 
+}
+
+.water-logo {
+    padding-left: 10rem;
+    font-size: 10rem;
+}
+
+#porque {
+    padding: 1%; 
+}
