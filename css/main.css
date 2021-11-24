@@ -1,3 +1,7 @@
+img {
+    height: 80%;
+    width: 100%;
+}
 header {
     background-color:lightskyblue;
     height: 25rem;
@@ -6,6 +10,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 10rem;
     
 }
 
@@ -27,3 +32,4 @@ h1 {
 #porque {
     padding: 1%; 
 }
+
