@@ -1,5 +1,20 @@
+:root {
+    --fs-xl: 3rem;
+    --fs-600: 1.5rem;
+    --fs-500: 1.25rem;
+    --fs-400: 1rem;
+}
+
+
+@media (min-width: 40em) {
+    :root {
+        --fs-xl: 7rem;
+    }
+}
+
+
 h1 {
-    font-size: 5vw !important;
+    font-size: var(--fs-xl)!important;
 }
 
 img {
@@ -19,7 +34,6 @@ header {
     align-items: center;
     justify-content: center;
     font-size: 10rem;
-    
 }
 
 body {
